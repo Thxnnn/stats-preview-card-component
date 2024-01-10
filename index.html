@@ -6,6 +6,8 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     
+    <link rel="stylesheet" href="style.css">
+
     <title>Frontend Mentor | Stats preview card component</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,32 +20,34 @@
 
     <div class="container">
         <div class="flex-container">
-            <div class="">
-                <div class="">
-                    Get insights that help your business grow.
+            <div class="text-content">
+                <div class="text-header">
+                    Get <span class="insights">insights</span> that help your business grow.
                 </div>
             
                 <div class="">
-                    Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-                experience, and overall efficiency.
+                    <p class="text-paragraph">
+                        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                        experience, and overall efficiency.
+                    </p>
                 </div>
             
-                <div class="">
-                    <div class="">
-                        <span class="">10k+</span>
-                        <span>companies</span>
+                <div class="flex-data">
+                    <div class="col-1">
+                        <span class="data-num-1">10k+</span>
+                        <span class="">companies</span>
                     </div>
-                    <div class="">
-                        <span>314</span>
-                        <span>templates</span>
+                    <div class="col-2">
+                        <span class="data-num-2">314</span>
+                        <span class="">templates</span>
                     </div>
-                    <div class="">
-                        <span>12m+</span>
-                        <span>queries</span>
+                    <div class="col-3">
+                        <span class="data-num-3">12m+</span>
+                        <span class="">queries</span>
                     </div>
                 </div>
             </div>
-            <div class="">
+            <div class="img-content">
                 <img src="./images/image-header-desktop.jpg" alt="">
             </div>
         </div>
