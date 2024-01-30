@@ -24,7 +24,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 80%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     margin: 0 auto; 
     
 }
@@ -97,7 +97,10 @@ body {
 
 /* desktop */
 @media only screen and (min-width:500px) {
-
+    .container {
+        overflow-y: hidden;
+        
+    }
     .flex-container {
         display: flex;
         
@@ -133,7 +136,8 @@ body {
 
     .container {
         width: 100%;
-        
+        overflow-y: scroll;
+        margin: 40px 0;
     }
 
     .flex-container {
