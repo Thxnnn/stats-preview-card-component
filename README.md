@@ -2,5 +2,6 @@
 
 
 
-Live Site URL: [Add live site URL here](https://thxnnn-stats-preview-card-component.netlify.app)
+Live Site URL: [Click here](https://thxnnn-stats-preview-card-component.netlify.app)
  
+![alt text](image.png)
